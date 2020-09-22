@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Calculadora con JavaScript - desafiolatam_</title>
+		<link type="text/css" href="assets/css/styles.css" rel="stylesheet">
+	</head>
+	<body onload="init ();">
+
+	<table class="calculadora">
+		<tr>
+			<td colspan="4"><span id="resultado"></span></td>
+		</tr>
+		<tr>
+			<td><button id="siete" onclick="addChar(7)">7</button></td>
+			<td><button id="ocho" onclick="addChar(8)">8</button></td>
+			<td><button id="nueve" onclick="addChar(9)">9</button></td>
+			<td><button id="division" onclick="addChar('/')">/</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="cuatro" onclick="addChar(4)">4</button></td>
+			<td><button id="cinco" onclick="addChar(5)">5</button></td>
+			<td><button id="seis" onclick="addChar(6)">6</button></td>
+			<td><button id="multiplicacion" onclick="addChar('*')">*</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="uno" onclick="addChar(1)">1</button></td>
+			<td><button id="dos" onclick="addChar(2)">2</button></td>
+			<td><button id="tres" onclick="addChar(3)">3</button></td>
+			<td><button id="resta" onclick="addChar('-')">-</button></td>
+		</tr>
+
+		<tr>
+			<td><button id="igual" onclick="result()" >=</button></td>
+			<td><button id="reset" onclick="clearDisplay()">C</button></td>
+			<td><button id="cero" onclick="addChar(0)">0</button></td>
+			<td><button id="suma" onclick="addChar('+')">+</button></td>
+		</tr>
+
+
+
+	</table>
+
+	<script type="text/JavaScript" src="assets/js/calculator.js"></script>
+	</body>
+</html>
